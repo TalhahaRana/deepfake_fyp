@@ -1,0 +1,22 @@
+.dash{
+    background-image: url("../assets/bg.png");
+    background-position: bottom;
+    backdrop-filter: brightness(0.5);
+    height: 630px;
+}
+.dash .content{
+    justify-content: center;
+    display: grid;
+    margin-top: 35px;
+}
+.upper p{
+    font-size: 72px;
+    width: 871px;
+    font-weight: 500;
+}
+.lower{
+    margin-top: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

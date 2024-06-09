@@ -1,0 +1,29 @@
+/* src/components/NavBar.css */
+.nav{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 61px;
+}
+  .nav img{
+    width: 174px;
+    margin-top: 26px;
+  }
+  .nav .link{
+    display: flex;
+    gap: 85px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .right{
+    backdrop-filter: blur(50px);
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 16px;
+    height: 44px;
+    width: 99px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+  }

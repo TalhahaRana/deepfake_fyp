@@ -1,8 +1,24 @@
 import React from 'react'
-
+import logo from '../assets/logo.png';
+import './nav.css'
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <div className='nav'>
+      <div className='logo'>
+      <img src={logo}/>
+      </div>
+      <div className='link'>
+        <p>
+          <a href='/'>Home</a>
+        </p>
+        <p>
+          <a href='/upload'>Resources</a>
+        </p>
+        <p>
+          <a href='/about'>About</a>
+        </p>
+      </div>
+    </div>
   )
 }
 
