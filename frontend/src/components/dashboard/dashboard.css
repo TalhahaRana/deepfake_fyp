@@ -2,17 +2,39 @@
     background-image: url("../assets/bg.png");
     background-position: bottom;
     backdrop-filter: brightness(0.5);
-    height: 630px;
+    height: 800px;
+}
+.grad{
+    background-image: linear-gradient(170deg, #6836f5, #ffffff, #6836f5 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+  background-size: 300%;
+  background-position: -100%;  
+    animation: animatedText 5s infinite alternate-reverse;
+}
+
+@keyframes animatedText{
+  to{
+    background-position: 100%; 
+  }
 }
 .dash .content{
     justify-content: center;
     display: grid;
-    margin-top: 35px;
+    margin-top: 151px;
 }
 .upper p{
-    font-size: 72px;
+    /* font-size: 72px;
     width: 871px;
+    font-weight: 500; */
+    letter-spacing: -.04em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 90px;
     font-weight: 500;
+    line-height: 110%;
 }
 .lower{
     margin-top: 116px;

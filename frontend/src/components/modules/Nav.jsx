@@ -17,6 +17,9 @@ const Nav = () => {
         <p>
           <a href='/about'>About</a>
         </p>
+        <p>
+          <a href='/login'>Login</a>
+        </p>
       </div>
     </div>
   )

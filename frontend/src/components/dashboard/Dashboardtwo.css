@@ -1,0 +1,22 @@
+.two_upper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two_left div{
+    width: 257px;
+}
+.two_left img{
+    width: 31px;
+}
+.two_upper p{
+    justify-content: center;
+    display: flex;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.two_left{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import VideoUpload from './components/VideoUpload';
 import Dashboard from './components/dashboard/Dashboard';
+import Dashboardtwo from './components/dashboard/Dashboardtwo';
 import Nav from "./components/modules/Nav";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <div>
       {/* <Nav/> */}
       <Dashboard/>
-      <h1>Deepfake Detection</h1>
+      <Dashboardtwo/>
       <VideoUpload />
     </div>
   );
