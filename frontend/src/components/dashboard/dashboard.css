@@ -3,6 +3,7 @@
     background-position: bottom;
     backdrop-filter: brightness(0.5);
     height: 800px;
+    overflow: hidden;
 }
 .grad{
     background-image: linear-gradient(170deg, #6836f5, #ffffff, #6836f5 );

@@ -104,7 +104,7 @@ def detect():
     print("Processing video...")
 
     prediction, parameters = sequence_prediction(video_path)
-    result = 'The video is FAKE' if prediction >= 0.7 else 'The video is REAL'
+    result = 'The video is FAKE' if prediction >= 0.2 else 'The video is REAL'
     return jsonify({'result': result, 'parameters': parameters})
 
 if __name__ == '__main__':

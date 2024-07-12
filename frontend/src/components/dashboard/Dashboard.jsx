@@ -12,9 +12,9 @@ const Dashboard = () => {
         </div>
         <div className="lower">
           <div className="left"> Scroll down to get started</div>
-          <div className="right">
+          {/* <div className="right">
             <a href="/Learn">Learn More</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

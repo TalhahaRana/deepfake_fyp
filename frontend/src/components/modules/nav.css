@@ -11,7 +11,7 @@
   }
   .nav .link{
     display: flex;
-    gap: 85px;
+    gap: 69px;
     backdrop-filter: blur(60px);
     background-color: rgb(109 10 185 / 16%);
     border-radius: 16px;

@@ -1,0 +1,33 @@
+
+.about_container{
+    justify-content: center;
+    display: grid;
+    margin: 0px 228px;
+ 
+}
+.about_wrapper{
+    background-image: url("../assets/bg.png");
+    background-position: bottom;
+    backdrop-filter: brightness(0.5);
+    background-position: 750px -874px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+ .about_container h1{
+    font-size: 65px;
+    font-weight: 400;
+}
+.about_container p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.grad_two {
+    background: linear-gradient(74deg, #4285f4 0, #9b72cb 9%, #d96570 20%, #d96570 24%, #9b72cb 35%, #4285f4 44%, #9b72cb 50%, #d96570 56%, #131314 75%, #131314 100%);
+    background-size: 367%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    animation: animatedText 5s infinite alternate-reverse;
+}

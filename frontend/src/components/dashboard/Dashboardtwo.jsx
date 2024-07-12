@@ -6,7 +6,7 @@ const Dashboardtwo = () => {
     <div>
       <div className="two_content">
         <div className="two_upper">
-          <p>How We</p> <p className="grad ">Work</p>
+         <p className="grad ">Working</p>
         </div>
         <div className="two_lower">
           <div className="two_left">
